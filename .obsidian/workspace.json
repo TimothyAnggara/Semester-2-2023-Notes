@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "b1d18fa34d0b1ac7",
+    "type": "split",
+    "children": [
+      {
+        "id": "841a025ad9397fc7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f15eb13f7becf95b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "DATA2002/Images/Pasted image 20230828223441.png"
+              }
+            }
+          },
+          {
+            "id": "6d76cb04b7dace33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29a7479b55ddb46c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DATA2002/Module 2/Lecture 13 - Sign test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7cf859946dced7c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "88a8965189babd45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d019ec99186e4000",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9234234448ca1e67",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "066e270021182bf5",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "f9e95323382025e0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.5024719238281
+  },
+  "right": {
+    "id": "1daf0535e78e5c59",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca45419adb4519a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf6d4a4c2fcfd78c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a3c6bb3b56d077f2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9f4c59798687a2de",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0419f7cf16ddf09e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "6d76cb04b7dace33",
+  "lastOpenFiles": [
+    "DATA2002/Lecture 9 - Testing in Small Samples.md",
+    "DATA2002/Lecture 4 - Goodness of Fit for Discrete Distributions.md",
+    "DATA2002/Module 2/Lecture 11 - Critical Values, Rejection Regions, and Confidence Intervals.md",
+    "DATA2002/Lecture 5 - Measures of Performance.md",
+    "DATA2002/Module 2/Lecture 12 - Sample Size Calculations and Power.md",
+    "DATA2002/Module 2/Lecture 10 - Testing Means V2.0.0.md",
+    "DATA2002/Module 2/Lecture 10 - Testing Means.md",
+    "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md",
+    "Pasted image 20230830231155.png",
+    "Pasted image 20230830225309.png",
+    "Pasted image 20230830224002.png",
+    "ECON1001/Lecture 2 - Demand.md",
+    "ECON1001/Lecture 3 - Firm Behavior, Production, Costs.md",
+    "ECON1001/Lecture 5 - Market Equilibrium And Welfare.md",
+    "ECON1001/Lecture 1 - Key Concepts and Gains from Trade.md",
+    "SOFT2412/Week 5 - Software Quality Assurance.md",
+    "Pasted image 20230830022308.png",
+    "Pasted image 20230830022128.png",
+    "How to get a GF.md",
+    "Pasted image 20230830003458.png",
+    "Pasted image 20230830003125.png",
+    "DATA2002/Images/Pasted image 20230830000406.png",
+    "DATA2002/Images/Pasted image 20230829230823.png",
+    "DATA2002/Module 2/Lecture 14 - Wilcoxon signed-rank test.md",
+    "DATA2002/Module 2/Question.md",
+    "DATA2002/Images/Pasted image 20230829234431.png",
+    "DATA2002/Module 2/Lecture 13 - Sign test.md",
+    "ECON1001/Lecture 4 - Supply.md",
+    "DATA2002/Questions.md",
+    "DATA2002/Lecture 6 - Measures of Risk.md",
+    "DATA2002/Lecture 8 - Testing for Independence.md",
+    "DATA2002/Lecture 7 - Testing for homogeneity.md",
+    "SOFT2412/Week 4 - System Build Automation.md",
+    "SOFT2412/Week 2 - Tools and Technologies for Controlling Artifacts.md",
+    "DATA2002/Module 2/Lecture 11 - Critical Values, Rejection Regions, and Confidence Intervals",
+    "DATA2002/Module 2",
+    "SOFT2412/Week 3 - Tools and Technologies for Controlling Artifacts (2).md",
+    "SOFT2412/Images",
+    "SOFT2412",
+    "DATA2002/Images",
+    "DATA2002",
+    "ECON1001/Images",
+    "ECON1001",
+    "Untitled.canvas",
+    "DataCamp/Inference for Categorical Data/Images",
+    "Untitled 1.canvas",
+    "DataCamp/Inference for Categorical Data",
+    "Untitled 2.canvas"
+  ]
+}
