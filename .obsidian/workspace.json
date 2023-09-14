@@ -11,9 +11,11 @@
             "id": "f15eb13f7becf95b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "DATA2002/Images/Pasted image 20230828223441.png"
+                "file": "DATA2002/Module 3/Lecture 19 - Anova.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -23,7 +25,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md",
+                "file": "DATA2002/Module 2/Lecture 13 - Sign test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e9783843cc8cffd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DATA2002/Module 3/Lecture 18 - Multiple Testing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08e9fcb9116039c8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "ECON1001/Images/Pasted image 20230904112046.png"
+              }
+            }
+          },
+          {
+            "id": "7bec6b5013a89d4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ECON1001/Lecture 5 - Market Equilibrium And Welfare.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,14 +71,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DATA2002/Module 2/Lecture 13 - Sign test.md",
+                "file": "DATA2002/Module 2/Lecture 17 - Bootstrapping.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b25db7adf165b821",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFT2412/Week 7 - Team Dynamics; Tools and Technologies for Teamwork.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60c03a19869b4c3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DATA2002/Module 3/Lecture 19 - Anova.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md",
+                "file": "DATA2002/Module 3/Lecture 18 - Multiple Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md",
+                "file": "DATA2002/Module 3/Lecture 18 - Multiple Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +216,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md"
+                "file": "DATA2002/Module 3/Lecture 18 - Multiple Testing.md"
+              }
+            }
+          },
+          {
+            "id": "5d17c582bd07a9ed",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -178,46 +248,48 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6d76cb04b7dace33",
+  "active": "9e9783843cc8cffd",
   "lastOpenFiles": [
-    "Pasted image 20230831220918.png",
-    "Pasted image 20230831214924.png",
-    "DATA2002/Lecture 9 - Testing in Small Samples.md",
-    "DATA2002/Lecture 4 - Goodness of Fit for Discrete Distributions.md",
-    "DATA2002/Module 2/Lecture 11 - Critical Values, Rejection Regions, and Confidence Intervals.md",
-    "DATA2002/Lecture 5 - Measures of Performance.md",
+    "DATA2002/Module 3/Lecture 20 -.md",
     "DATA2002/Module 2/Lecture 12 - Sample Size Calculations and Power.md",
+    "DATA2002/Module 2/Lecture 13 - Sign test.md",
+    "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md",
+    "DATA2002/Module 2/Lecture 16 - Permutation Test.md",
+    "DATA2002/Module 2/Lecture 17 - Bootstrapping.md",
+    "DATA2002/Module 3/Lecture 19 - Anova.md",
+    "ECON1001/Images/Pasted image 20230904112046.png",
+    "Pasted image 20230913222320.png",
+    "SOFT2412/Week 7 - Team Dynamics; Tools and Technologies for Teamwork.md",
+    "DATA2002/Images/Pasted image 20230828223441.png",
+    "DATA2002/Module 3/Lecture 18 - Multiple Testing.md",
+    "Pasted image 20230913144718.png",
+    "Pasted image 20230913025331.png",
+    "Pasted image 20230913010158.png",
+    "SOFT2412/Week 6 - Continuous Integration Delivery, and Deployment.md",
+    "ECON1001/Lecture 7 - Perfect Competition.md",
+    "ECON1001/Lecture 6 - Elasticity.md",
+    "ECON1001/Lecture 4 - Supply.md",
+    "ECON1001/Lecture 3 - Firm Behavior, Production, Costs.md",
+    "ECON1001/Lecture 2 - Demand.md",
+    "DATA2002/Module 2/Question.md",
+    "Pasted image 20230911234200.png",
+    "DATA2002/Lecture 4 - Goodness of Fit for Discrete Distributions.md",
+    "ECON1001/Images/Pasted image 20230905110137.png",
+    "DATA2002/Module 3/Lecture 18 -",
+    "DATA2002/Module 3",
+    "SOFT2412/Images/Pasted image 20230911223929.png",
+    "ECON1001/Images/Pasted image 20230905123935.png",
+    "DATA2002/Module 2/Lecture 14 - Wilcoxon signed-rank test.md",
     "DATA2002/Module 2/Lecture 10 - Testing Means V2.0.0.md",
     "DATA2002/Module 2/Lecture 10 - Testing Means.md",
-    "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md",
-    "Pasted image 20230830231155.png",
-    "Pasted image 20230830225309.png",
-    "Pasted image 20230830224002.png",
-    "ECON1001/Lecture 2 - Demand.md",
-    "ECON1001/Lecture 3 - Firm Behavior, Production, Costs.md",
+    "SOFT2412/Week 3 - Tools and Technologies for Controlling Artifacts (2).md",
     "ECON1001/Lecture 5 - Market Equilibrium And Welfare.md",
-    "ECON1001/Lecture 1 - Key Concepts and Gains from Trade.md",
-    "SOFT2412/Week 5 - Software Quality Assurance.md",
-    "Pasted image 20230830022308.png",
-    "Pasted image 20230830022128.png",
-    "How to get a GF.md",
-    "Pasted image 20230830003458.png",
-    "Pasted image 20230830003125.png",
-    "DATA2002/Images/Pasted image 20230830000406.png",
-    "DATA2002/Images/Pasted image 20230829230823.png",
-    "DATA2002/Module 2/Lecture 14 - Wilcoxon signed-rank test.md",
-    "DATA2002/Module 2/Question.md",
-    "DATA2002/Module 2/Lecture 13 - Sign test.md",
-    "ECON1001/Lecture 4 - Supply.md",
-    "DATA2002/Questions.md",
-    "DATA2002/Lecture 6 - Measures of Risk.md",
+    "Untitled.md",
+    "DATA2002/Lecture 9 - Testing in Small Samples.md",
     "DATA2002/Lecture 8 - Testing for Independence.md",
     "DATA2002/Lecture 7 - Testing for homogeneity.md",
-    "SOFT2412/Week 4 - System Build Automation.md",
-    "SOFT2412/Week 2 - Tools and Technologies for Controlling Artifacts.md",
     "DATA2002/Module 2/Lecture 11 - Critical Values, Rejection Regions, and Confidence Intervals",
     "DATA2002/Module 2",
-    "SOFT2412/Week 3 - Tools and Technologies for Controlling Artifacts (2).md",
     "SOFT2412/Images",
     "SOFT2412",
     "DATA2002/Images",
@@ -225,9 +297,7 @@
     "ECON1001/Images",
     "ECON1001",
     "Untitled.canvas",
-    "DataCamp/Inference for Categorical Data/Images",
     "Untitled 1.canvas",
-    "DataCamp/Inference for Categorical Data",
     "Untitled 2.canvas"
   ]
 }
