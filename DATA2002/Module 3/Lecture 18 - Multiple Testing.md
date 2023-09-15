@@ -1,4 +1,4 @@
- ## microRNA and Alzheimer's Disease
+	 ## microRNA and Alzheimer's Disease
 In this example, we will be examining microRNA and Alzheimer's disease
 - MicroRNA are small non-coding RNA molecules that regulate gene expression
 We want to ask the question if there is any evidence that microRNA behavior in the brain might be associated with Alzheimer's disease?
@@ -69,7 +69,12 @@ If there was **no association** between microRNAs and Alzheimer's disease, we wo
 - The diagram above is a example histogram where we there is no association and if we use the formula `sum(mirna$null_pval < 0.05) #15 ` 
 - Even though that there are no truly important microRNAs, we can still see 15 "significant" p-values in this simulated example
 ### Reality of Situation
+- From the example above, how do we know out of the 49 p-values which ones are real?
 - We never really know what is a *real association*
+	- There might be some ways to determine if the results is real or not but that depends on other external information such as
+		- Replicating someone else results
+		- A explanation that actually makes sense
+				- In the case of the RNA, if you can make a biological argument then that's good
 - A small p-value provides some evidence against the null but it could still be a false positive
 	- Type 1 error
 
@@ -181,5 +186,16 @@ p_vals[4] < 4*alpha/m # False
 
 # And so on:
 ```
-## Simulation Experiments
-## MicroRNA revisited
+### 10 microRNA p-values: BH method
+```
+result = vector(length = length(p_vals))
+p_vals = sort(p_vals) # we already did this but just emphasising it
+for(j in seq(p_vals)) { # seq(p_vals) is the same as 1:length(pvals)
+  result[j] = p_vals[j] < j*alpha/m
+}
+
+largest_true = max(which(result == TRUE))
+largest_true # 3
+
+
+```

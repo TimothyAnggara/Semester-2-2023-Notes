@@ -1,4 +1,4 @@
-## What is Anova?
+v## What is ANOVA?
 ### Plant Growth
 Results from an experiment to compare yields obtained under a control and two different treatment conditions were done on plant growth
 ```
@@ -19,7 +19,7 @@ What should we do if we want to compare the means of the three different groups?
 - Does the mean of the control, treatment 1 and treatment 2 have the same mean or differ in some way?
 
 ### What does ANOVA stand for?
-ANOVA is an abbreviation of the term "Analysis of Variance" and the term "variance" and the ANOVA procedure is mainly due to Fisher from the 1920 in a particular book he wrote
+ANOVA is an abbreviation of the term "Analysis of Variance" and the term "variance" and the ANOVA procedure is mainly due to Fisher from the 1920's in a particular book he wrote
 #### What is "Analysis of Variance?"
 In its "simplest" form, Analysis of Variance is a generalization of a two sided two-sample $t$-test to 3 or more samples
 - But. which two-sample $t$-test?
@@ -47,7 +47,7 @@ We can try and two
 
 ### Welch (unequal variance two-independent-sample) $t$-test
 In a Welch test, it is only assumed that each sample is normal, with different variances and different means, and all random variables are independent
-- Under these conditions, the differences, $\bar{D} = \bar{X} - \bar{Y}$ is normal with variance
+- Under these conditions $\bar{X} - \bar{Y}$ is normal with variance:
 $$
 \frac{\sigma^2_X}{m}+\frac{\sigma^2_Y}{n}\,.
 $$
@@ -59,7 +59,7 @@ $$
 
 ### Classical two-(independent)-sample (equal variance) $t$-test
 The "classic" two sample $t$-test which assumes the same assumptions as the Welch test with the extra assumption that the two populations variances are equal
-- Under these conditions, the differences, $\bar{D} = \bar{X} - \bar{Y}$ is normal with a variance $\sigma^2 = (\frac{1}{m}+\frac{1}{n})$ 
+- Under these conditions,  $\bar{X} - \bar{Y}$ is normal with a variance $\sigma^2 = (\frac{1}{m}+\frac{1}{n})$ 
 - $\sigma^2$ is estimated using the pooled estimator:
 $$
 S_p^2= \frac{(m-1)S_X^2+(n-1)S_Y^2}{m+n-2}
@@ -213,3 +213,29 @@ $$
 $$
 \text{Treatment Mean Square} = \frac{\text{Treatment SS}}{g-1} = \dfrac{\sum_{i=1}^g n_i (\bar Y_{i\bullet}-\bar Y_{\bullet\bullet})^2}{g-1}
 $$
+#### "Ratio of Variances"
+Continuing our analogy of the two-sample $t$-test, we can consider the ratio of variances estimates as a test statistic to test the null hypothesis against the alternative that they are not all equal
+- The estimate under the null hypothesis is just the "combined" sample variances:
+$$
+\hat{\sigma}^2_0 = \frac{1}{N-1}\sum_{i=1}^g\sum_{j=1}^{n_i}(Y_{ij}-\bar
+Y_{\bullet\bullet})^2\,.
+$$
+- The estimate under the alternative or "full model" is the **Residual Mean Square**:
+$$
+\hat\sigma^2=\frac{\sum_{i=1}^g\sum_{j=1}^{n_i}(Y_{ij}-\bar Y_{i\bullet})^2}{N-g}\,.
+$$
+
+### The $F$ staistic
+- It turns out a sensible test statistics considers the ratio of these two ways of estimating $\sigma^2$
+$$
+\small{
+\begin{align*}
+\frac{\text{Treatment Mean Square}}{\text{Residual Mean Square}} &= \frac{\sum_{i=1}^gn_i(\bar Y_{i\bullet}-\bar Y_{\bullet\bullet})^2/(g-1)}{\hat{\sigma}^2}\\
+& =  \frac{\sum_{i=1}^gn_i(\bar Y_{i\bullet}-\bar Y_{\bullet\bullet})^2/(g-1)}{\sum_{i=1}^g\sum_{j=1}^{n_i}(Y_{ij}-\bar Y_{i\bullet})^2/(N-g)}\\
+& \sim \frac{\chi^2_{g-1}/(g-1)}{\chi^2_{N-g}/(N-g)} \ \text{ (both independent)}\\
+& \sim F_{g-1,N-g} \ \text{ under }H_0.
+\end{align*}
+}
+$$
+- The denominator is **always** an unbiased estimator of $\sigma^2$ regardless of $H_0$ is true or not
+- The number is only an unbiased estimator if $\sigma^2$ if $H_0$ is true, otherwise **it tends to get bigger**
