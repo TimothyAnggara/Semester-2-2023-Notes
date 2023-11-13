@@ -1,4 +1,4 @@
-## Motivating Example
+	## Motivating Example
 
 ### Asthma and Hay fever
 A large group of infants with mild respiratory problems, but asthma free is split into those with a family of hay fever and those without
@@ -181,7 +181,7 @@ $$
 O(A) = \frac{P(A)}{1-P(A)}
 $$
 
-In the risk/disease setting, the probability of disease %R^+$ patients is $P(D^+|R^+)$, hence the odds:
+In the risk/disease setting, the probability of disease $R^+$ patients is $P(D^+|R^+)$, hence the odds:q
 $$
 O(D^+|R^+) = \frac{P(D^+|R^+)}{1-P(D^+|R^+)} = \frac{P(D^+|R^+)}{P(D^-|R^+)}
 $$

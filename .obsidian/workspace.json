@@ -4,98 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "841a025ad9397fc7",
+        "id": "fdbebf2fdec0eeb1",
         "type": "tabs",
         "children": [
           {
-            "id": "f15eb13f7becf95b",
+            "id": "e1c2d439c002937c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DATA2002/Module 3/Lecture 20 - ANOVA Post Hoc Test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d76cb04b7dace33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DATA2002/Module 2/Lecture 13 - Sign test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e9783843cc8cffd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DATA2002/Module 3/Lecture 19 - Anova.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08e9fcb9116039c8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "ECON1001/Images/Pasted image 20230904112046.png"
-              }
-            }
-          },
-          {
-            "id": "7bec6b5013a89d4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ECON1001/Lecture 5 - Market Equilibrium And Welfare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29a7479b55ddb46c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DATA2002/Module 2/Lecture 17 - Bootstrapping.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b25db7adf165b821",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SOFT2412/Week 7 - Team Dynamics; Tools and Technologies for Teamwork.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60c03a19869b4c3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DATA2002/Module 3/Lecture 19 - Anova.md",
+                "file": "DATA2002/Questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -175,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DATA2002/Module 3/Lecture 20 - ANOVA Post Hoc Test.md",
+                "file": "DATA2002/Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DATA2002/Module 3/Lecture 20 - ANOVA Post Hoc Test.md",
+                "file": "DATA2002/Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DATA2002/Module 3/Lecture 20 - ANOVA Post Hoc Test.md"
+                "file": "DATA2002/Questions.md"
               }
             }
           },
@@ -247,54 +165,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f15eb13f7becf95b",
+  "active": "e1c2d439c002937c",
   "lastOpenFiles": [
-    "Pasted image 20230915211653.png",
-    "Pasted image 20230915202104.png",
-    "DATA2002/Module 3/Lecture 19 - Anova.md",
-    "DATA2002/Module 3/Lecture 20 - ANOVA Post Hoc Test.md",
-    "DATA2002/Module 3/Lecture 18 - Multiple Testing.md",
-    "DATA2002/Module 2/Lecture 12 - Sample Size Calculations and Power.md",
-    "DATA2002/Module 2/Lecture 13 - Sign test.md",
-    "DATA2002/Module 2/Lecture 15 - Wilcoxon rank-sum test.md",
-    "DATA2002/Module 2/Lecture 16 - Permutation Test.md",
-    "DATA2002/Module 2/Lecture 17 - Bootstrapping.md",
-    "ECON1001/Images/Pasted image 20230904112046.png",
-    "Pasted image 20230913222320.png",
-    "SOFT2412/Week 7 - Team Dynamics; Tools and Technologies for Teamwork.md",
-    "DATA2002/Images/Pasted image 20230828223441.png",
-    "Pasted image 20230913144718.png",
-    "Pasted image 20230913025331.png",
-    "Pasted image 20230913010158.png",
-    "SOFT2412/Week 6 - Continuous Integration Delivery, and Deployment.md",
-    "ECON1001/Lecture 7 - Perfect Competition.md",
-    "ECON1001/Lecture 6 - Elasticity.md",
-    "ECON1001/Lecture 4 - Supply.md",
-    "ECON1001/Lecture 3 - Firm Behavior, Production, Costs.md",
-    "ECON1001/Lecture 2 - Demand.md",
     "DATA2002/Module 2/Question.md",
-    "Pasted image 20230911234200.png",
-    "DATA2002/Lecture 4 - Goodness of Fit for Discrete Distributions.md",
-    "ECON1001/Images/Pasted image 20230905110137.png",
+    "DATA2002/Module 2/Lecture 14 - Wilcoxon signed-rank test.md",
+    "DATA2002/Module 2/Lecture 11 - Critical Values, Rejection Regions, and Confidence Intervals.md",
+    "DATA2002/Module 1/Lecture 8 - Testing for Independence.md",
+    "DATA2002/Module 1/Lecture 7 - Testing for homogeneity.md",
+    "DATA2002/Questions.md",
+    "DATA2002/Module 1/Lecture 6 - Measures of Risk.md",
+    "SOFT2412/Week 9 - Requirements In Agile Development.md",
+    "SOFT2412/Week 10 - Scrum Estimation and Planning.md",
+    "DATA2002/Kevin Fu's Lecture.md",
+    "DATA2002/Module 1/Lecture 3 - Chi-Squared Test.md",
+    "DATA2002/Module 3/Lecture 24 - Two-Way Anova.md",
+    "Pasted image 20231003224535.png",
+    "DATA2002/Module 3/Lecture 25 - Two Factor ANOVA.md",
+    "DATA2002/Module 4/Lecture 30 - Assessing Performance.md",
+    "DATA2002/Module 4/Lecture 29 - Model Selection.md",
+    "DATA2002/Module 4/Lecture 28 - Prediction and Categorical Predictors.md",
+    "DATA2002/Module 4/Lecture 32 - Decision Trees and Random Forest.md",
+    "DATA2002/Module 4/Lecture 34 - Nearest Neighbors.md",
+    "DATA2002/Module 4/Lecture 35 - Clustering.md",
+    "DATA2002/Module 4/Lecture 36 - Dimension Reduction.md",
+    "ECON1001/Lecture 9 - Oligopoly and Game Theory.md",
+    "DATA2002/Module 3/Lecture 23 - What can we do when ANOVA Assumptions Fails.md",
+    "ECON1001/Lecture 12 - International Trade.md",
+    "Pasted image 20231030122259.png",
+    "Pasted image 20231030122228.png",
+    "Pasted image 20231030122216.png",
+    "Pasted image 20231030114744.png",
+    "Pasted image 20231030114338.png",
+    "ECON1001/Lecture 11 - Market Failure (Externality and Public Goods).md",
+    "ECON1001/Things to study.md",
+    "Pasted image 20231026233542.png",
+    "Pasted image 20231026233532.png",
+    "Pasted image 20231026233121.png",
+    "Pasted image 20231026233101.png",
+    "ECON1001/Lecture 10 - Market Failure and Government Interventions.md",
+    "DATA2002/Module 4",
+    "DATA2002/Module 1",
     "DATA2002/Module 3/Lecture 18 -",
     "DATA2002/Module 3",
-    "SOFT2412/Images/Pasted image 20230911223929.png",
-    "DATA2002/Module 2/Lecture 14 - Wilcoxon signed-rank test.md",
-    "DATA2002/Module 2/Lecture 10 - Testing Means V2.0.0.md",
-    "DATA2002/Module 2/Lecture 10 - Testing Means.md",
-    "SOFT2412/Week 3 - Tools and Technologies for Controlling Artifacts (2).md",
-    "ECON1001/Lecture 5 - Market Equilibrium And Welfare.md",
-    "Untitled.md",
-    "DATA2002/Lecture 9 - Testing in Small Samples.md",
-    "DATA2002/Lecture 8 - Testing for Independence.md",
     "DATA2002/Module 2/Lecture 11 - Critical Values, Rejection Regions, and Confidence Intervals",
     "DATA2002/Module 2",
     "SOFT2412/Images",
     "SOFT2412",
     "DATA2002/Images",
     "DATA2002",
-    "ECON1001/Images",
-    "ECON1001",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"

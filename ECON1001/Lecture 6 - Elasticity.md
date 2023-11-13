@@ -34,7 +34,7 @@ $$
 ### Example
 Suppose that the demand for forks is given  by $Q = 100 - 2P$ and the price of forks is P = 30. What is the price elasticity of demand at this price?
 
-$\frac{dP}{dQ} = -2$ and our $p = 30$so $Q = 40$ if we plug it into our demand function. 
+$\frac{dQ}{dp} = -2$ and our $p = 30$ so $Q = 40$ if we plug it into our demand function. 
 $$
 -2 \times \frac{30}{40} = -1.5
 $$
@@ -52,7 +52,7 @@ Where: $y^m = \frac{y_1 + y_2}{2}$ and $x^m = \frac{x_1 + x_2}{2}$
 When the price of spoons is $10, the quantity demanded is 50 units.  When the price increases to $20, the quantity demanded falls to 30 units
 
 To calculate elasticity, we need to find the average of price and quantity:
-- $P^m = \frac{20-10}{2}$ and $Q^m = \frac{50 - 30}{2}$
+- $P^m = \frac{20+10}{2}$ and $Q^m = \frac{50 + 30}{2}$
 We also need to know $\triangle P$ and $\triangle Q$
 - $\triangle P = 20 - 10 = 10$
 - $\triangle Q  = 30 - 50 = -20$
@@ -77,7 +77,7 @@ If the elasticity is between -1 and 0, the demand is inelastic
 If the elasticity is -1, demand is unit elastic
 - For a 1% change in price, the resulting change is a 1% change in quantity demanded
 If elasticity is less than -1, the demand is elastic
-- A 1% change in price results in a change in quantity demanded larget than 1%
+- A 1% change in price results in a change in quantity demanded larger than 1%
 - Very responsive to price
 If elasticity is negative infinity, the demand is perfectly elastic
 - For a small increase in price, quantity demanded will drop to 0
